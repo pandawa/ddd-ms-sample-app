@@ -1,0 +1,7 @@
+update_category:
+    constraints:
+        name: "required"
+
+product_exists:
+    constraints:
+        product: "required|uuid|exists:products,id"

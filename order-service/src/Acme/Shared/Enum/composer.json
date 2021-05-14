@@ -1,0 +1,25 @@
+{
+    "name": "acme/shared-enum",
+    "description": "Acme shared enum",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Iqbal Maulana",
+            "email": "iq.bluejack@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "marc-mabe/php-enum": "^4.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\Shared\\Enum\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": []
+        }
+    }
+}

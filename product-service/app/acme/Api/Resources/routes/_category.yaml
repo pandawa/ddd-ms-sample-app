@@ -1,0 +1,9 @@
+product:
+    type: resource
+    path: categories
+    options:
+        rules:
+            - name: update_category
+              only: [store, update]
+            - name: category_exists
+              only: [delete]

@@ -1,0 +1,12 @@
+product:
+    type: resource
+    path: products
+    options:
+        paginate: true
+        withs:
+            - category
+        rules:
+            - name: update_product
+              only: [store, update]
+            - name: product_exists
+              only: [delete]

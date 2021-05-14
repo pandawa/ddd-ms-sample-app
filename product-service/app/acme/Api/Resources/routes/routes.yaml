@@ -1,0 +1,13 @@
+ping:
+    type: presenter
+    methods: [get]
+    path: ping
+    presenter: ping
+
+product:
+    type: group
+    children: _product.yaml
+
+category:
+    type: group
+    children: _category.yaml

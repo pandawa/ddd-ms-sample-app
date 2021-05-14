@@ -1,0 +1,5 @@
+"order.purchase":
+    constraints:
+        order_items: "required|array"
+        order_items.*.product: "required|uuid|exists:products,id"
+        order_items.*.qty: "required|numeric"

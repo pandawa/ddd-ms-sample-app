@@ -1,0 +1,25 @@
+{
+    "name": "acme/shared-money",
+    "description": "Acme shared money",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Iqbal Maulana",
+            "email": "iq.bluejack@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "moneyphp/money": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Acme\\Shared\\Enum\\": ""
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": []
+        }
+    }
+}

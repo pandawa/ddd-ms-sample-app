@@ -1,0 +1,10 @@
+update_product:
+    constraints:
+        name: "required"
+        price: "required|numeric"
+        description: "required"
+        category: "required|uuid|exists:categories,id"
+
+product_exists:
+    constraints:
+        product: "required|uuid|exists:products,id"

@@ -1,0 +1,6 @@
+"order.purchase":
+    type: message
+    message: purchase-order
+    path: orders
+    methods: [post]
+    rules: ["order.purchase"]

@@ -1,0 +1,9 @@
+ping:
+    type: presenter
+    methods: [get]
+    path: ping
+    presenter: ping
+
+order:
+    type: group
+    children: _order.yaml
